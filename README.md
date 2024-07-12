@@ -1,4 +1,4 @@
-# QSO Mapper
+# PD1BER QSO Mapper
 
 Show Amateur Radio QSOs on an interactive map and table.
 
