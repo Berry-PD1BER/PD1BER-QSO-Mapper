@@ -1,0 +1,65 @@
+/* qso-mapper.css - Show Amateur Radio QSOs on an interactive map and table.
+ *
+ * 2020/09/05 Stephen Houser, N1SH
+ */
+
+ html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding-top: 3.5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.custom-file-label {
+	display: inline !important;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#map-canvas {
+	/* height: calc ( 100vh - 6rem ); */
+	display: block;
+	height: 100%;
+	width: 100%;
+  /* border: 2px dashed black; */
+}
+
+#call-log {
+	display: none;
+	padding: 1em;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.background {
+	padding: 3em;
+	position: absolute;
+	text-align: center;
+	color: darkgray;
+	z-index: -10;
+	width: 100%
+}
+
+.qso h1 {
+	font-size: 2rem;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
